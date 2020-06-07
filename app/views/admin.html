@@ -1,0 +1,34 @@
+#{extends 'main.html' /}
+#{set title:'Admin' /}
+
+<section class="ui raised segment">
+  <header class="ui header">
+    Gym Assessments
+  </header>
+  <table class="ui fixed table">
+    <thead>
+    <tr>
+      <th>Id</th>
+      <th>Date/Time</th>
+      <th>Weight</th>
+      <th>Chest</th>
+      <th>Thigh</th>
+      <th>Upper Arm</th>
+      <th>Waist</th>
+      <th>Hips</th>
+      <th>Comment</th>
+    </tr>
+    </thead>
+    <tbody>
+    <div class="ui bulleted list">
+      #{list items:member, as:'member'}
+        <tr>
+          <td> ${member.id} </td>
+          <td> ${member.add} </td>
+        </tr>
+      #{/list}
+    </div>
+    </tbody>
+  </table>
+
+</section>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cb538d08-4d93-4112-a29c-670a9a70538d" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1butF7hvApmNOrOlD5HPMIuaZSK" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/images" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cb538d08-4d93-4112-a29c-670a9a70538d" name="Default Changelist" comment="" />
+      <created>1589493699906</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589493699906</updated>
+      <workItem from="1589493701382" duration="570000" />
+      <workItem from="1589494834398" duration="19252000" />
+      <workItem from="1590834787320" duration="15030000" />
+      <workItem from="1591052481827" duration="12678000" />
+      <workItem from="1591140406204" duration="13311000" />
+      <workItem from="1591257483552" duration="47217000" />
+      <workItem from="1591488963786" duration="88000" />
+      <workItem from="1591489267570" duration="109000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="104" y="42" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591348756769">
+      <screen x="0" y="23" width="1280" height="717" />
+    </state>
+    <state x="104" y="42" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1280.717@0.23.1280.717" timestamp="1591348756769" />
+    <state x="362" y="189" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591310880247">
+      <screen x="0" y="23" width="1280" height="716" />
+    </state>
+    <state x="362" y="189" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1280.716@0.23.1280.716" timestamp="1591310880247" />
+    <state x="453" y="74" key="#com.intellij.ide.util.MemberChooser" timestamp="1591402963867">
+      <screen x="0" y="23" width="1280" height="717" />
+    </state>
+    <state x="453" y="73" key="#com.intellij.ide.util.MemberChooser/0.23.1280.709@0.23.1280.709" timestamp="1591140560760" />
+    <state x="453" y="74" key="#com.intellij.ide.util.MemberChooser/0.23.1280.717@0.23.1280.717" timestamp="1591402963867" />
+    <state x="350" y="274" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1589495052227">
+      <screen x="0" y="23" width="1280" height="707" />
+    </state>
+    <state x="350" y="274" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.23.1280.707@0.23.1280.707" timestamp="1589495052227" />
+    <state x="378" y="134" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1591348882064">
+      <screen x="0" y="23" width="1280" height="717" />
+    </state>
+    <state x="378" y="134" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1280.717@0.23.1280.717" timestamp="1591348882064" />
+  </component>
+</project>

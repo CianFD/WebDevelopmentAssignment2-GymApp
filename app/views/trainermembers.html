@@ -1,0 +1,70 @@
+#{extends 'main.html' /}
+#{set title:'Member View' /}
+
+#{trainermenu id:"dashboard"/}
+
+<section class="ui raised segment">
+    <div class="ui four column middle aligned grid basic segment">
+        <div class="column">
+            <div class="ui icon header">
+                <i class="user icon"></i>
+                <h1>${member.name}</h1>
+            </div>
+        </div>
+        <div class="column">
+            <div class="ui icon header">
+                <i class="ui red dashboard icon"></i>
+                <h1>Ideal Weight Indicator</h1>
+            </div>
+        </div>
+        <div class="column">
+            <div class="ui header">
+                <i class="heartbeat icon"></i><h1> ${bmi} </h1>
+            </div>
+            <h1>BMI</h1>
+        </div>
+        <div class="column">
+            <div class="ui icon header">
+                <i class="doctor icon"></i>
+                <h1>${bmiCat}</h1>
+            </div>
+        </div>
+    </div>
+</section>
+#{list items:assessments, as:'assessment'}
+<section class="ui raised segment">
+    <table class="ui fixed table">
+        <thead>
+        <tr>
+            <th>Date/Time</th>
+            <th>Weight</th>
+            <th>Chest</th>
+            <th>Thigh</th>
+            <th>Upper Arm</th>
+            <th>Waist</th>
+            <th>Hips</th>
+            <th>Comment</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td> ${assessment.dateAndTime} </td>
+            <td> ${assessment.weight} </td>
+            <td> ${assessment.chest} </td>
+            <td> ${assessment.thigh} </td>
+            <td> ${assessment.upperArm} </td>
+            <td> ${assessment.waist} </td>
+            <td> ${assessment.hips} </td>
+            <td> ${assessment.comment} </td>
+        </tr>
+        </tbody>
+    </table>
+    <form class="ui stacked segment form" action="/members/${member.id}/addcomment/${assessment.id}" method="POST">
+        <div class="field">
+            <label>Comments</label>
+            <input placeholder="Add Comment" type="text" name="comment">
+        </div>
+        <button class="ui blue submit button">Submit</button>
+    </form>
+#{/list}
+</section>

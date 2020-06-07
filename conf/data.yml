@@ -1,0 +1,59 @@
+Assessment(a1):
+  dateAndTime: 2020/05/31 18:40:25
+  weight: 108.4
+  chest:  45.0
+  thigh:  12.5
+  upperArm: 23.3
+  waist:  32.0
+  hips: 38.0
+
+Assessment(a2):
+  dateAndTime: 2020/06/03 12:22:16
+  weight: 109.1
+  chest:  54.2
+  thigh:  13.9
+  upperArm: 25.6
+  waist:  34.2
+  hips: 40.1
+
+Assessment(a3):
+  dateAndTime: 2020/05/27 16:37:25
+  weight: 37.69
+  chest: 20.1
+  thigh: 8.6
+  upperArm: 16.2
+  waist: 19.4
+  hips: 19.8
+
+Member(m1):
+  name: Homer Simpson
+  gender: Male
+  email: homer@simpson.com
+  password: secret
+  address: 742 Evergreen Terrace, Springfield, Oregon
+  height: 183.0
+  startingweight: 108.4
+  assessments:
+    - a1
+    - a2
+
+Member(m2):
+  name: Bart Simpson
+  gender: Male
+  email: bart@simpson.com
+  password: secret
+  address: 742 Evergreen Terrace, Springfield, Oregon
+  height: 121.92
+  startingweight: 38.56
+  assessments:
+    - a3
+
+Trainer(t1):
+  name: Marge Simpson
+  gender: Female
+  email: marge@simpson.com
+  password: secret
+  address: 742 Evergreen Terrace, Springfield, Oregon
+  specialty: Cardio
+
+
